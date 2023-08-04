@@ -1,0 +1,22 @@
+algoritmo "we_bare_bears"
+
+var
+         ice_bear, grizzly, panda, urso: caractere
+
+inicio
+         escreval ("escolha um ursinho: ")
+         escreval ("ice_bear, panda ou grizzly")
+         leia (urso)
+         se (urso = "grizzly") então
+         escreval ("fresh bears! get them while they're hot!")
+         fimse
+         senão se (urso = "panda") então
+         escreval ("yes! we can stuff one dumpling into another dumpling, and then that dumpling in another dumpling, and then another dumpling, and another! and then i'll eat that dumpling and i'll be the dumpling!")
+         fimse
+         senão se (urso = "ice_bear") então
+         escreval ("ice bear has a conspiracy theory.")
+         fimse
+         senão
+         escreval ("desculpe, esse ursinho não está disponível. por favor, escolha outro ursinho.")
+         fimrepita
+fimalgoritmo
